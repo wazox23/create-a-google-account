@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    border: 1px solid #dadce0;
+    width: 745px;
+    height: 606px;
+    margin: 150px auto;
+    padding: 48px 40px 36px;    
+
+}
+
+.form-logo {
+    margin-right: 260px;
+   
+}
+
+.left-side {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.right-side {
+    padding-left: 48px;
+}
+
+.first-last-name,
+.password-section {
+    display: flex;
+}
+
+.first-last-name{
+    padding-bottom: 24px;
+}
+
+.create-google-acc{
+    font-weight: 400;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+form input {
+    margin: 2px;
+    border: 1px solid #dadce0;
+    padding: 6px 8px;
+    border-radius: 5px;
+}
+
+form input:active{
+    border: 2px solid blue;
+}
+
+#username {
+    width: 99%;
+}
+
+.use-current-email{
+    font-weight: 500;
+    font-size: 14px;
+    color: #1A73E8;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+input[value="@gmail.com"]{
+    text-align: right;
+}
+
+#you-can-use {
+    font-size: 12px;
+    font-weight: 400;
+    font-stretch: normal;
+    padding-left: 7px;
+    color: #a4a6a9;
+}
+
+.picture-text  {
+    text-align: center;
+    color: #2e2e31;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+
+.show-password span {
+    font-size: 14px;
+    margin-left: 16px;
+}
+
+.password-text {
+    font-size: 12px;
+    font-weight: 400;
+    font-stretch: normal;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #a4a6a9;
+}
+
+.sign-in-instead{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    padding-bottom: 20px;
+    align-items: center;
+    color:#1A73E8;
+}
+
+.sign-in-instead button{
+   background-color:#1a73e8;
+   color: white;
+   height: 38px;
+   width: 79px;
+   border-radius: 5px;
+   border: none;
+}
+
+.sign-in-instead button:hover{
+   background-color: #1A59E8;
+}
